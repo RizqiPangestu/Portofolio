@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, FooterIcon } from './FooterElements'
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterIcon } from './FooterElements'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai'
 
