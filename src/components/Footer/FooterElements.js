@@ -16,6 +16,7 @@ export const FooterWrap = styled.div`
 `
 
 export const FooterLinksContainer = styled.div`
+    // background-color: yellow;
     display: flex;
     justify-content: center;
 
@@ -25,7 +26,10 @@ export const FooterLinksContainer = styled.div`
 `
 
 export const FooterLinksWrapper = styled.div`
+    // background-color: cyan;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @media screen and (max-width: 820px){
         flex-direction: column;
@@ -34,12 +38,11 @@ export const FooterLinksWrapper = styled.div`
 
 export const FooterLinkItems = styled.div`
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    // background-color: red;
     margin: 16px;
-    text-align: left;
-    width: 160px;
-    box-sizing: border-box
+    justify-content: space-between;
+    width: 300px;
+    box-sizing: border-box;
     color: #fff;
 
     @media screen and(max-width: 420px){
@@ -50,7 +53,7 @@ export const FooterLinkItems = styled.div`
 `
 
 export const FooterLinkTitle = styled.h1`
-    color: #fff
+    color: #fff;
     font-size = 14px;
     margin-bottom: 16px;
 `
@@ -61,6 +64,14 @@ export const FooterLink = styled(Link)`
     margin-bottom: 0.5rem;
     font-size: 14px;
 
+    &:hover {
+        color: #01bf71;
+        transition: 0.3s ease-out;
+    }
+`
+
+export const FooterIcon = styled.a`
+    color: #fff;
     &:hover {
         color: #01bf71;
         transition: 0.3s ease-out;
