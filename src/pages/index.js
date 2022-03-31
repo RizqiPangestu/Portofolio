@@ -20,7 +20,7 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle} />
             <HeroSection />
-            <SubheadSection id="framework" text="Framework" />
+            <SubheadSection id="experience" text="Experience" />
             <InfoSection {...gamaforce} />
             <InfoSection {...bukitvista} />
             <InfoSection {...tiketdotcom} />
