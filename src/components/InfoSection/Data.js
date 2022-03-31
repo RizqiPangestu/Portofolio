@@ -1,50 +1,52 @@
-import svg1 from '../../images/svg-1.svg';
+import logo_bukitvista from '../../images/logo_bukitvista.png'
+import logo_gamaforce from '../../images/logo_gamaforce.png'
+import logo_tiketdotcom from '../../images/logo_tiketdotcom.png'
 
-export const about = {
-    id: 'about',
+export const gamaforce = {
+    id: 'gamaforce',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'About',
-    headLine: 'My Profile',
-    description: 'Get access to our exlusive app that allows you to send unlimited transactions without getting charged any fees',
+    topLine: 'Hardware Programmer at',
+    headLine: 'Gamaforce',
+    description: 'Create a code for embedded system to compete in Kontes Robot Terbang Indonesia (KRTI) for 3 years. Working on censor acquisition, communication protocol, and control system for autonomous UAV',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: svg1,
+    img: logo_gamaforce,
     alt: 'Car',
     dark: true,
-    primary: true,
+    primary: false,
     darkText: true
 }
 
-export const portofolio = {
-    id: 'portofolio',
+export const bukitvista = {
+    id: 'bukitvista',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Portofolio',
-    headLine: 'My Working Experience',
-    description: 'Get access to our exlusive app that allows you to send unlimited transactions without getting charged any fees',
+    topLine: 'Backend Developer at',
+    headLine: 'Bukit Vista',
+    description: 'Working with Product Development team to make useful tools to be used by other employee. Maintaining REST API in Bukit Vista internal tools, create feature based on client request, and make an automation to scrape data from AirBnB',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img: svg1,
+    img: logo_bukitvista,
     alt: 'Car',
-    dark: false,
-    primary: false,
+    dark: true,
+    primary: true,
     darkText: false
 }
 
-export const contact = {
-    id: 'contact',
+export const tiketdotcom = {
+    id: 'tiketdotcom',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Contact',
-    headLine: 'My Social Media',
-    description: 'Get access to our exlusive app that allows you to send unlimited transactions without getting charged any fees',
+    topLine: 'Backend Developer at',
+    headLine: 'Tiket.com',
+    description: 'To be continued',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: svg1,
+    img: logo_tiketdotcom,
     alt: 'Car',
     dark: true,
     primary: false,
